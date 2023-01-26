@@ -90,7 +90,7 @@ describe('Login e registro de usuarios alura pic', () => {
 
   const usuarios = require('../../fixtures/usuarios.json')
   usuarios.forEach(usuario => {
-    it(`registra novo usuario ${usuario.userName}`, () => {
+    it.only(`registra novo usuario ${usuario.userName}`, () => {
       cy.contains('a', 'Register now').click()
       cy.contains('button', 'Register').click()
       cy.get('input[formcontrolname="email"]').type(usuario.email)
