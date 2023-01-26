@@ -1,0 +1,20 @@
+[
+  {
+    "email": "abc@alura.com",
+    "fullName": "Abc",
+    "userName": "abc",
+    "password": "password"
+  },
+  {
+    "email": "def@alura.com",
+    "fullName": "Def",
+    "userName": "def",
+    "password": "password"
+  },
+  {
+    "email": "ghi@alura.com",
+    "fullName": "Ghi",
+    "userName": "ghi",
+    "password": "password"
+  }
+]
